@@ -21,6 +21,23 @@ def Sleep(timE):
         time.sleep(timE)
     except KeyboardInterrupt:
         print(r+" KeyboardInterrupt , ........")
+def banner():
+    # fancy logo
+    b = [
+
+
+    '░██████╗████████╗░█████╗░██████╗░', 
+    '██╔════╝╚══██╔══╝██╔══██╗██╔══██╗', 
+    '╚█████╗░░░░██║░░░███████║██████╔╝', 
+    '░╚═══██╗░░░██║░░░██╔══██║██╔══██╗', 
+    '██████╔╝░░░██║░░░██║░░██║██║░░██║', 
+    '╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝', 
+    ]
+    for char in b:
+        print(f'{random.choice(colors)}{char}{rs}')
+    #print('=============SON OF GENISYS==============')
+    print(f'{lg}   Version: {w}1.2{lg} | Author: {w}TG_STARWORLD{rs}\n')
+
 def info():
     print("")
     print("")
